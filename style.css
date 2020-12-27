@@ -1,0 +1,125 @@
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* guide */
+.title {
+  margin: 16px;
+  font-size: 24px;
+}
+
+/* button */
+.btn {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
+  text-decoration: none;
+  border-style: none;
+  color: #ffffff;
+  background-color: #5900e7;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border-color: #5900e7;
+  cursor: pointer;
+  line-height: 1;
+}
+
+/* card */
+.card{
+  width: 100%;
+}
+.card-box{
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15);
+}
+.card-content{
+  background: #FFFFFF;
+  padding: 10px;
+}
+.card-text{
+  padding-bottom: 20px;
+}
+.card-user{
+  font-size: 13px;
+  line-height: 20px;
+}
+.card-user img,
+.card-user span{
+  vertical-align: middle;
+}
+
+/* alert */
+.alert{
+  width: 100%;
+  color: #856404;
+  background-color: #fff3cd;
+  border-color: #ffeeba;
+  border-radius: 5px;
+  display: flex;
+  border-width: 1px;
+  border-style: solid;
+}
+.alert-text{
+  flex: 1;
+  padding: 20px;
+}
+.close{
+  background-color: transparent;
+  border-style: none;
+  vertical-align: middle;
+  padding: 20px;
+}
+.close svg{
+  width: 20px;
+  height: 20px;
+  color: #856404;
+  cursor: pointer;
+}
+
+/* 배너 */
+.banner-content{
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+.banner-content h3{
+  font-size: 32px;
+}
+.banner-content p{
+  font-size: 22px;
+  margin-top: 18px;
+  margin-bottom: 38px;
+}
+.banner-caption{
+  text-align: center;
+  margin: 0 auto;
+}
+/* 네비바 */
+.navbar{
+  display: flex;
+  background-color: #f8f9fa;
+  padding: 8px 16px;
+}
+.navbar a{
+  text-decoration: none;
+  color: #212529;
+}
+.navbar .logo{
+  font-size: 20px;
+  margin-right: 16px;
+  padding: 5px 0;
+}
+.navbar-menu{
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.signin{
+  margin-left: auto;
+}
+.navbar-menu li{
+  padding: 5px;
+}
